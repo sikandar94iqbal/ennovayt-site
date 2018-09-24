@@ -1,0 +1,186 @@
+@font-face {
+  font-family: PT_SANS_CAPTION; 
+  src: url('../Assets/fonts/PT_Sans_Caption/PT_Sans-Caption-Web-Regular.ttf'); 
+} 
+@font-face {
+  font-family: PT_SANS; 
+  src: url('../Assets/fonts/PT_Sans/PT_Sans-Web-Regular.ttf'); 
+} 
+
+@font-face {
+  font-family: PT_SANS_NARROW; 
+  src: url('../Assets/fonts/PT_Sans_Narrow/PT_Sans-Narrow-Web-Regular.ttf'); 
+} 
+
+
+
+.heading{
+  font-family: PT_SANS_CAPTION;
+}
+
+.para{
+  font-family: PT_SANS_CAPTION;
+}
+
+.para_heading{
+  font-family: PT_SANS;
+}
+
+#welcometext{
+  font-family: PT_SANS_CAPTION;
+}
+#welcomesub{
+  font-family: PT_SANS_NARROW;
+}
+#navitems{
+  font-family: PT_SANS;
+}
+#logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+   padding-left: 10px;
+   font-family: PT_SANS_CAPTION;
+}
+
+#imagelogo{
+
+}
+
+.navID {
+  height: 90px;
+  background-color: #ffffff
+  
+}
+
+.welcomeDiv{
+   
+  background-color: blue;
+ width: 300px;
+  max-width: 300px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+
+ 
+}
+
+.breaker{
+  height: 50px;
+}
+
+#wallpaperDiv{
+  text-align: left;
+ padding-block-start: 70px;
+  padding-inline-start: 80px;
+ padding: 150px;
+
+
+
+
+ background-color:#ffe9ba;
+
+}
+
+
+.shit img {
+   width: 100%;
+}
+
+
+.shit img.wide {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.shit img.tall {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}​
+
+#subtitleDiv{
+  font-size: 30px;
+  color: #cccccc;
+}
+#foot{
+padding: 20px;
+}
+
+#footnav{
+  
+color: #929292;
+top: 50%;
+left: 50%;
+
+}
+
+#companytrade{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+  pointer-events:none;
+  color: #929292;
+top: 50%;
+left: 50%;
+}
+
+
+@media screen and (max-width: 750px) {
+  #welcomeDiv {
+    /* background-color: aqua; */
+    max-width: 550px;
+  }
+  #wallpaperDiv{
+    padding: 90px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #welcomeDiv {
+    /* background-color: aqua; */
+    max-width: 450px;
+  }
+  #wallpaperDiv{
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #welcomeDiv {
+    /* background-color: #ff0000; */
+    max-width: 450px;
+  }
+  #wallpaperDiv{
+    padding: 80px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  #welcomeDiv {
+    /* background-color: #ff0000; */
+    max-width: 550px;
+  }
+  #wallpaperDiv{
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #welcomeDiv {
+    /* background-color: #ff0000; */
+    max-width: 550px;
+  }
+  #wallpaperDiv{
+    padding: 50px;
+  }
+}
